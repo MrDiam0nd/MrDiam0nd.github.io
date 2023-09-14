@@ -16,6 +16,10 @@ button {
     height: 30px;
 }
 
+div {
+    padding-bottom: 10px;
+}
+
 #HOME {
     background-color: #00c;
     border-color: #001;

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("summer.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-c {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown {
+    text-align: center;
+}
+
+.countdown span{
+    font-size: 1.5rem;
+}
+
+#HOME {
+    background-color: #00c;
+    border-color: #001;
+    width: 50px;
+    height: 50px;
+    color:#ddd;
+}
+
+#HOMEdiv {
+    padding-top: 10px;
+}
