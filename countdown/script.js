@@ -9,6 +9,7 @@ let mode = 0;
 
 function setmode(number){
     mode = number;
+    update();
 }
 
 function update(){
