@@ -38,10 +38,10 @@ function update(){
     }
         
     }else if(mode == 1){
-        milisecLeft = new Date("20 dec "+(new Date().getYear()+1900)).getTime() - curentTime;
+        milisecLeft = new Date("24 dec "+(new Date().getYear()+1900)).getTime() - curentTime;
         
         if(milisecLeft < 0){
-            milisecLeft = new Date("20 dec "+(new Date().getYear()+1901)).getTime() - curentTime;
+            milisecLeft = new Date("24 dec "+(new Date().getYear()+1901)).getTime() - curentTime;
         }
 
         if(milisecLeft<0 && milisecLeft > -24*60*60*1000){
