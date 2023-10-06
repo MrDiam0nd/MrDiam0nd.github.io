@@ -13,9 +13,27 @@ function setmode(number){
 }
 
 function update(){
-    let milisecLeft;
+    let month = new Date().getMonth();
+    if(1 < month && month < 5){
+        document.body.style.backgroundImage = "url('vår.jpg')";
+    }else if(4 < month && month < 8){
+        document.body.style.backgroundImage = "url('summer.jpg')";
+    }else if(7 < month && month < 11){
+        document.body.style.backgroundImage = "url('höst.jpg')";
+    }else if(month == 11){
+        document.body.style.backgroundImage = "url('jul.jpg')";
+        if(new Date().getDay()==23){
+            document.body.style.backgroundImage = "url('julafton.jpg')";
+        }
+    }else{
+        document.body.style.backgroundImage = "url('vinter.jpg')";
+    }
     
-    console.log(mode);
+    if(new Date().getDay()==21 && month == 5){
+        document.body.style.backgroundImage = "url('födelsedag.jpg')";
+    }
+    
+    let milisecLeft;
     
     let curentTime = new Date().getTime();
     
